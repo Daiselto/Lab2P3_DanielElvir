@@ -55,7 +55,7 @@ int main() {
             }else if (opTemp == 2) {
                 cout << "Ingrese su temperatura en Fahrenheit" << endl;
                 cin >> tempIni;
-                cout << "La temperatura en Celsius " << (tempIni-32)/18 << endl;
+                cout << "La temperatura en Celsius " << (tempIni-32)/1.8 << endl;
                 cout << "La temperatura en Kelvin " << (5/9)(tempIni-32)+273.15 << endl;
             }else if (opTemp == 3) {
                 cout << "Ingrese su temperatura en Kelvin" << endl;
